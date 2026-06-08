@@ -85,13 +85,7 @@ private:
     std::array<float, fftSize * 2> carrierFftData {};
     std::array<float, fftSize> carrierFifo {};
     int carrierFifoIndex = 0;
-    //---------------------------------------------------------------------
-    
-    //IFFT STUFFS----------------------------------------------
-    std::array<float, fftSize> ifftOutput {}; //hold inverse FFT data
-    int ifftOutputIndex = fftSize; //holds ifftOutput index
-    bool ifftBlockAvailable = false; //do we go on?
-    //------------------------------------------------------------------------
+    //--------------------------------------------------------------------
     
     //HOP WINDOW-----------------------------------------------------
     static constexpr int hopSize = fftSize / 4; //4x overlap
