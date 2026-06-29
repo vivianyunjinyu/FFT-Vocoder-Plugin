@@ -7,7 +7,7 @@ I built an FFT-based vocoder plugin with the JUCE framework in C++ based on Able
 <img width="602" height="470" alt="image" src="https://github.com/user-attachments/assets/b59c633b-f937-4eab-8d8f-b979635dbc4f" />
 
 
-## Controls
+## Controls:
 
 | Control  | Description                                                                                        |
 | -------- | -------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ I built an FFT-based vocoder plugin with the JUCE framework in C++ based on Able
 | Enhance  | Blends the carrier spectrum toward a flatter magnitude response for a more pronounced vocoder tone |
 | Bands    | Selects the number of vocoder bands: 8, 16, 24, 32, 48, or 64                                      |
 
-## Technical Details
+## Technical Details:
 
 * Framework: JUCE
 * Language: C++
@@ -27,3 +27,6 @@ I built an FFT-based vocoder plugin with the JUCE framework in C++ based on Able
 * Overlap: 4x
 * Window: Kaiser window
 * Band spacing: Mel scale
+
+## Quick Demo:
+[YouTube Link](https://youtu.be/eNIMhT7e4mo)
